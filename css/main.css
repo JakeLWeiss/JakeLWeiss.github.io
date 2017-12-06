@@ -109,7 +109,7 @@ header{
 	width: 100%;
 	height: 130px;
 	z-index: 99;
-	background-color: #41c17d;
+	background-color: #000000;
 	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
@@ -124,11 +124,11 @@ header .logo{
 header .burger_icon{
 	display: none;
 	float: right;
-	background: #ffffff;
+	background: #000000;
 	padding: 5px 10px;
 	text-transform: uppercase;
 
-	color: #43b779;
+	color: #000000;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 
@@ -225,7 +225,7 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: #000000;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
@@ -233,7 +233,7 @@ header .social li:first-child{
 }
 
 .hero .caption p{
-	color: #6d6c6c;
+	color: #000000;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
@@ -276,6 +276,10 @@ a.app_store_btn{
 
 .iphone_icon{
 	background: url('../img/iphone_app.png') no-repeat;
+}
+
+.git_icon{
+	background: url('../img/git-icon.png') no-repeat;
 }
 
 .android_icon{
@@ -754,8 +758,9 @@ a.app_link{
 /*		Footer 		*/
 
 footer{
-	padding: 100px 0;
+	padding: 50px ;
 	text-align: center;
+	background-color: #000000;
 }
 
 footer .app_platform li{
@@ -767,7 +772,7 @@ footer .app_platform li:first-child{
 }
 
 footer .copyright{
-	margin-top: 60px;
+	margin-top: 30px;
 	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 12px;
